@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+
+<!--    <test name="class Test">-->
+<!--        <classes>-->
+<!--            <class name="btapTest.abc" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="method">-->
+<!--        <classes>-->
+<!--            <class name="test.testA">-->
+<!--                <methods>-->
+<!--                    <include name="Openproject" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+    <test name="package Test">
+        <packages>
+            <package name="BT2" />
+        </packages>
+    </test>
+
+</suite>
